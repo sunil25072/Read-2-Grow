@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background:#F3F8FF;
+  overflow-x: hidden;
+  color: #000000;
+  background: linear-gradient(135deg, #E3F2FD, #bbdefb);
+}
+header h1 {
+    background: #adcee9;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+.profile{
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  cursor: pointer;
+
+
+}
+.Logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.search-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #E3F2FD;
+}
+
+.search-section h2 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #90CAF9;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1em;
+}
+
+.search-bar button {
+  background: #5292db;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.search-bar button:hover {
+  background: #42A5F5;
+}
+
+.filters select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #90CAF9;
+  font-size: 1em;
+  color: #000000;
+}
+
+.top-books{
+  background-color: #b4d3ec ;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+.popular {
+  text-align: center;
+  padding: 70px 20px;
+  background: #E3F2FD;
+}
+
+.popular h2 {
+  color: #1565C0;
+  margin-bottom: 40px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.book button{
+    background-color: #adcee9;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;;
+}
+.about, .contact {
+  width: 80%;
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.about h2, .contact h2 {
+  color: #222;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about p, .contact p {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #adcee9;
+  color: #000000;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+    padding: 25px;
+  }
+
+  .profile {
+    top: 20px;
+    right: 20px;
+  }
+  .profile img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .poster-container {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .poster-text h2 {
+    font-size: 26px;
+  }
+
+  .poster-text p {
+    font-size: 14px;
+  }
+
+  .poster-text button {
+    padding: 10px 15px;
+  }
+
+  .book-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book {
+    width: 80%;
+  }
+
+  .about,
+  .contact {
+    width: 90%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
