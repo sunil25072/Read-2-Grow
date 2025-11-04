@@ -22,6 +22,11 @@ h1 {
   padding: 40px;
 }
 
+.heading{
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
 .profile{
   position: absolute;
   top: 35px;
@@ -169,10 +174,3 @@ footer {
     cursor: pointer;;
 }
 
-
-.heading{
-  font-size: 60px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-
-}
